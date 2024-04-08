@@ -1,8 +1,6 @@
 name = "cf-renderer"
 compatibility_date = "2023-12-01"
 
-node_compat = true
-
 # [vars]
 # MY_VAR = "my-variable"
 
