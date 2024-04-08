@@ -4,11 +4,14 @@
     "deploy": "wrangler deploy --minify src/index.ts"
   },
   "dependencies": {
+    "fonteditor-core": "^2.3.3",
     "hono": "^4.2.2",
+    "wawoff2": "^2.0.1",
     "workers-og": "^0.0.24"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240403.0",
+    "@types/wawoff2": "^1.0.2",
     "wrangler": "^3.47.0"
   }
 }
