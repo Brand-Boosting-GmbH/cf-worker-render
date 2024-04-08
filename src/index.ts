@@ -24,12 +24,6 @@ app.get('/', async (c) => {
   <div style="z-index: 8; justify-content: center; align-items: center; position: absolute; display: flex; left: -1%; top: 11%; width: 100%; height: 20%; font-family: Calisto;text-transform: uppercase; font-size: 47px; color: #000000; text-align: center; font-weight: normal; font-style: normal; text-decoration: none; text-decoration: none; line-height: 1; letter-spacing: 0px; opacity: 100%; transform: rotate(0deg)">GRADUATION</div>
   <div style="z-index: 8; justify-content: center; align-items: center; position: absolute; display: flex; left: -1%; top: 23%; width: 100%; height: 20%; font-family: Washington; font-size: 91px; color: #000000; text-align: center; font-weight: normal; font-style: normal; text-decoration: none; text-decoration: none; line-height: 1; letter-spacing: 0px; opacity: 100%; transform: rotate(0deg)">Vanessa</div></div>
    `;
-
-   // in browser
-   // fake beeing a browser
-  
-
-
     return new ImageResponse(html, {
       width: 1000,
       height: 1000,
